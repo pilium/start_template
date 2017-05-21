@@ -1,0 +1,27 @@
+{
+  "name": "work_template",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "pilium <igorpilium@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dev/libs/"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "magnific-popup": "^1.1.0",
+    "normalize-css": "normalize.css#^7.0.0",
+    "slick-carousel": "^1.6.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "private": true
+}

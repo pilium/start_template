@@ -1,0 +1,128 @@
+@import '_libs.less';  // Подключаем стили библиотек
+@import '_vars.less';  // Подключаем переменные
+@import 'sprite.less';// Подключаем спрайты (просто раскоментируем импорт при появлении PNG спрайтов)
+// Подключаем миксины
+@import 'modules/smart-grid.less'; // Подключение smart grid
+@import '_mixins.less';
+
+
+html
+{
+    font-size: 14px;
+    line-height: 1;
+}
+
+body
+{
+    font-family: mainFont;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin: 0;
+}
+
+li,
+ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+p
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: black;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+{
+    vertical-align: middle;
+}
+
+textarea
+{
+    resize: none;
+}
+
+section
+{
+    position: relative;
+
+    margin-bottom: 20px;
+}
+
+button,
+input,
+select
+{
+    outline: none;
+}
+
+*,
+*:after,
+*:before
+{
+    box-sizing: border-box;
+}
+
+::-moz-selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.clearfix:after,
+.clearfix:before
+{
+    display: table;
+
+    content: ' ';
+}
+
+.clearfix:after
+{
+    clear: both;
+}
+
+.clearfix
+{
+    *zoom: 1;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+@import '_common.less';  // Общие стили
+@import 'modules/_header.less'; // Стили шапки
+@import 'modules/_menu.less'; // Стили меню
+@import 'page/_index.less';// Стили главной страницы
+@import 'modules/_footer.less';// Стили футера
+@import '_media.less';// Стили медиазапросов
